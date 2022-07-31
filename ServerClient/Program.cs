@@ -63,8 +63,4 @@ static double Operation(string a)
     return Convert.ToInt32(a);
 }
 
-
-
-
-
 Console.ReadLine(); 

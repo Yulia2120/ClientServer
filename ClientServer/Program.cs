@@ -17,7 +17,6 @@ clientSocket.Connect(iPEnd);
     int recv = clientSocket.Receive(data);
     string s = Encoding.ASCII.GetString(data, 0, recv);
     Console.WriteLine("From Server : {0}", s);
-    string input;
 
     while (true)
 {
